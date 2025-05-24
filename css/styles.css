@@ -3,16 +3,36 @@ body {
   color: #434455;
   background-color: #fff;
 }
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
 
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
-
+/* H E A D E R      H E A D E R      H E A D E R*/
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -22,16 +42,44 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .header-logo .loog-part {
   color: #2e2f42;
 }
 
-.footer-logo .loog-part {
-  color: #f4f4fd;
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.page-footer {
-  background-color: #2e2f42;
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contacts .contacts-list {
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.contacts {
+  margin-left: auto;
 }
 
 .nav-link {
@@ -40,6 +88,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover,
@@ -47,20 +97,29 @@ a {
   color: #404bbf;
 }
 
-.contacts {
-  font-style: normal;
-}
-
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
+  display: block;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
+}
+
+/* M A I N      M A I N     M A I N */
+
+/* F O O T E R      F O O T E R     F O O T E R */
+.footer-logo .loog-part {
+  color: #f4f4fd;
+}
+
+.page-footer {
+  background-color: #2e2f42;
 }
 
 .hero {
