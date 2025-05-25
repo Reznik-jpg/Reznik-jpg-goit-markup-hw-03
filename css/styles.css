@@ -183,7 +183,7 @@ a {
   color: #2e2f42;
   text-align: center;
   visibility: hidden;
-  /* position: absolute; */
+  position: absolute;
   white-space: nowrap;
 }
 
