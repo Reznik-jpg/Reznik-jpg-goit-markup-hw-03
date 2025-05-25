@@ -179,6 +179,29 @@ a {
   margin-bottom: 8px;
 }
 
+/* T E A M */
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.team-item {
+  background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+}
+.team-pic {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 32px;
+}
+.team-box-text {
+  box-sizing: border-box;
+}
 /* F O O T E R      F O O T E R     F O O T E R */
 .footer-logo .loog-part {
   color: #f4f4fd;
@@ -202,10 +225,6 @@ a {
   color: #2e2f42;
 }
 
-.team {
-  background-color: #f4f4fd;
-}
-
 .title-team,
 .title-portfol {
   font-weight: 700;
@@ -215,11 +234,10 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
-.team-item {
-  background-color: #ffffff;
-}
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
