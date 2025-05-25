@@ -166,13 +166,25 @@ a {
   gap: 24px;
 }
 
+/* .visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(100%);
+  border: 0;
+} */
+
 .visually-hidden {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  overflow: hidden;
+  text-align: center;
+  visibility: hidden;
+  /* position: absolute; */
+  white-space: nowrap;
 }
 
 .goal-item {
