@@ -158,12 +158,14 @@ a {
 .goal {
   text-align: left;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-goal {
   display: flex;
   gap: 24px;
 }
+
 .visually-hidden {
   font-weight: 500;
   font-size: 20px;
@@ -172,10 +174,16 @@ a {
   color: #2e2f42;
   display: none;
 }
+
+.goal {
+  margin-bottom: 120px;
+}
+
 .goal-item {
   width: calc(100% - 24 * 3) / 4;
   width: 264px;
 }
+
 .goal-subtitle {
   margin-bottom: 8px;
 }
@@ -199,14 +207,16 @@ a {
 .team-pic {
   max-width: 100%;
   height: auto;
-  margin-bottom: 32px;
+  display: block;
 }
 
 .team-box-text {
   border: 1px solid #e7e9fc;
   border-top: none;
   box-sizing: border-box;
+  padding: 32px 0 32px;
 }
+
 .subtitle-team {
   padding: 0 49px;
   text-align: center;
@@ -218,17 +228,27 @@ a {
   margin-bottom: 8px;
 }
 
+.portfol {
+  margin-bottom: 120px;
+}
+
 .portfol-list {
   display: flex;
   gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
+
 .portfol-text-box {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
   margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.subtitle-portfol {
   margin-bottom: 8px;
 }
 
@@ -258,9 +278,11 @@ a {
   padding-top: 120px;
   margin-bottom: 72px;
 }
+
 .footer-logo .loog-part {
   color: #f4f4fd;
 }
+
 .footer-logo {
   margin-bottom: 16px;
   padding: 24px 0;
